@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+	<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+	  <Authors>Nikolaev</Authors>
+	  <Version>1.0.1.15</Version>
+	  <Company>ПКГХ</Company>
+	  <Description>Работа с DataGridView</Description>
+	  <License> </License >
+  </PropertyGroup>
+
+	<ItemGroup>
+		<None Include="licenses\LICENSE.txt" Pack="true" PackagePath=""/>
+	</ItemGroup>
+
+</Project>
